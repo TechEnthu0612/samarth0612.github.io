@@ -32,16 +32,20 @@ api.authenticate() <br/>
 dataset_name = "andradaolteanu/gtzan-dataset-music-genre-classification" <br/>
 api.dataset_download_files(dataset_name, path="/content/data", unzip=True) <br/>
 Then done the code for all the tasks that has to be done for the project i.e. Music Genre Classification <br/>
+
 Used 6 different classifiers for doing the classification and found the accuracies. <br/>
+
 1. Decision Trees (DecisionTreeClassifier) -> 0.6616
 2. K-Nearest Neighbors (KNN Classifier) ->0.8313
 3. Naive Bayes (GaussianNB) -> 0.5230
 4. Stochastic Gradient Descent (SGDClassifier) -> 0.6591
 5. Random Forest (RandomForestClassifier) -> 0.8168
 6. Support Vector Machine (SVC) -> 0.7587
-Usage
+   
+## Usage
 The notebook file contains the complete code for data download, preprocessing, model implementation, evaluation, and visualization.
-Results
+
+## Results
 The project is done by evaluating several machine learning models including Naive Bayes, Stochastic Gradient Descent, K-Nearest Neighbors, Decision Trees, Random Forest, and Support Vector Machine.
 Model performance is assessed using accuracy scores, confusion matrices, learning curves, and feature importance analysis.
 A comparison of model accuracies and class distribution is provided to understand the effectiveness of each model and find that how good project has been done.
