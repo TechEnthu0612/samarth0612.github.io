@@ -46,17 +46,19 @@ Used 6 different classifiers for doing the classification and found the accuraci
 The notebook file contains the complete code for data download, preprocessing, model implementation, evaluation, and visualization.
 
 ## Results
-The project is done by evaluating several machine learning models including Naive Bayes, Stochastic Gradient Descent, K-Nearest Neighbors, Decision Trees, Random Forest, and Support Vector Machine.
+The project is done by evaluating several machine learning models including Naive Bayes, Stochastic Gradient Descent, K-Nearest Neighbors, Decision Trees, Random Forest, and Support Vector Machine. <br/>
 Model performance is assessed using accuracy scores, confusion matrices, learning curves, and feature importance analysis.
-A comparison of model accuracies and class distribution is provided to understand the effectiveness of each model and find that how good project has been done.
-References
-https://www.kaggle.com/code/kraftyeaton/ml-final
-https://www.kaggle.com/code/eashana/music-genre-classification-using-ml
-https://www.kaggle.com/code/aftereffect/musicgenreclassificationfinal
-https://www.kaggle.com/andradaolteanu/gtzan-dataset-music-genre-classification
-https://www.geeksforgeeks.org/k-nearest-neighbor-algorithm-in-python/
-https://www.machinelearningnuggets.com/decision-trees-and-random-forests/
-Contributors
-Your Name
-Additional Contributors (if any)
+A comparison of model accuracies and class distribution is provided to understand the effectiveness of each model and find that how good project has been done. <br/>
+
+## References
+https://www.kaggle.com/code/kraftyeaton/ml-final <br/>
+https://www.kaggle.com/code/eashana/music-genre-classification-using-ml <br/>
+https://www.kaggle.com/code/aftereffect/musicgenreclassificationfinal <br/>
+https://www.kaggle.com/andradaolteanu/gtzan-dataset-music-genre-classification <br/>
+https://www.geeksforgeeks.org/k-nearest-neighbor-algorithm-in-python/ <br/>
+https://www.machinelearningnuggets.com/decision-trees-and-random-forests/ <br/>
+
+Contributors <br/>
+Your Name <br/>
+Additional Contributors (if any) <br/>
  
