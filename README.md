@@ -1,14 +1,24 @@
 # Music Genre Classification
 This project aims to classify music genres using machine learning techniques. It utilizes the GTZAN dataset for music genre classification available on Kaggle.
+
 Dataset
+
 The dataset used in this project is the "GTZAN Dataset Music Genre Classification" by andradaolteanu, accessible on Kaggle here. It consists of audio excerpts of 30 seconds each from various music genres including Blues, Classical, Country, Disco, Hip Hop, Jazz, Metal, Pop, Reggae, and Rock.
+
 Google Colab Setup
+
 Open Google Colab and create a new notebook.
+
 Mount Google Drive to access files and datasets:
+
 from google.colab import drive
+
 drive.mount('/content/drive')
+
 Install and import the required libraries:
+
 !pip install pandas numpy seaborn matplotlib scikit-learn librosa kaggle
+
 import os
 import pandas as pd
 import numpy as np
