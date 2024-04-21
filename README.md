@@ -5,7 +5,7 @@ Dataset
 
 The dataset used in this project is the "GTZAN Dataset Music Genre Classification" by andradaolteanu, accessible on Kaggle here. It consists of audio excerpts of 30 seconds each from various music genres including Blues, Classical, Country, Disco, Hip Hop, Jazz, Metal, Pop, Reggae, and Rock.
 
-Google Colab Setup
+## Google Colab Setup
 
 Open Google Colab and create a new notebook. <br/>
 Mount Google Drive to access files and datasets: <br/>
