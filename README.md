@@ -23,25 +23,16 @@ import sklearn <br/>
 import librosa <br/>
 import librosa.display <br/>
 from kaggle.api.kaggle_api_extended import KaggleApi <br/>
-
-Set up Kaggle API credentials:
-
-os.environ["KAGGLE_USERNAME"] = "b20cs048"
-
-os.environ["KAGGLE_KEY"] = "24a550be5e552e966e4d4b6a2a6bfa51"
- 
-Download the dataset using Kaggle API:
-
-api = KaggleApi()
-
-api.authenticate()
-
-dataset_name = "andradaolteanu/gtzan-dataset-music-genre-classification"
-
-api.dataset_download_files(dataset_name, path="/content/data", unzip=True)
- 
-Then done the code for all the tasks that has to be done for the project i.e. Music Genre Classification
-Used 6 different classifiers for doing the classification and found the accuracies.
+Set up Kaggle API credentials: <br/>
+os.environ["KAGGLE_USERNAME"] = "b20cs048" <br/>
+os.environ["KAGGLE_KEY"] = "24a550be5e552e966e4d4b6a2a6bfa51" <br/>
+Download the dataset using Kaggle API: <br/>
+api = KaggleApi() <br/>
+api.authenticate() <br/>
+dataset_name = "andradaolteanu/gtzan-dataset-music-genre-classification" <br/>
+api.dataset_download_files(dataset_name, path="/content/data", unzip=True) <br/>
+Then done the code for all the tasks that has to be done for the project i.e. Music Genre Classification <br/>
+Used 6 different classifiers for doing the classification and found the accuracies. <br/>
 1. Decision Trees (DecisionTreeClassifier) -> 0.6616
 2. K-Nearest Neighbors (KNN Classifier) ->0.8313
 3. Naive Bayes (GaussianNB) -> 0.5230
