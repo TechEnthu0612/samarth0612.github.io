@@ -7,7 +7,8 @@ The dataset used in this project is the "GTZAN Dataset Music Genre Classificatio
 
 Google Colab Setup
 
-Open Google Colab and create a new notebook.  Mount Google Drive to access files and datasets:
+Open Google Colab and create a new notebook. \n
+Mount Google Drive to access files and datasets:
 
 from google.colab import drive
 
