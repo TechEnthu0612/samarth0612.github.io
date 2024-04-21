@@ -58,7 +58,9 @@ https://www.kaggle.com/andradaolteanu/gtzan-dataset-music-genre-classification <
 https://www.geeksforgeeks.org/k-nearest-neighbor-algorithm-in-python/ <br/>
 https://www.machinelearningnuggets.com/decision-trees-and-random-forests/ <br/>
 
-Contributors <br/>
-Your Name <br/>
-Additional Contributors (if any) <br/>
+Group Members <br/>
+1. Rahul Prajapati
+2. Rahul Saha
+3. Samarth Sala
+4. Muskan Gautam
  
