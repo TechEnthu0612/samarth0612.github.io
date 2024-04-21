@@ -7,9 +7,7 @@ The dataset used in this project is the "GTZAN Dataset Music Genre Classificatio
 
 Google Colab Setup
 
-Open Google Colab and create a new notebook.
-
-Mount Google Drive to access files and datasets:
+Open Google Colab and create a new notebook.  Mount Google Drive to access files and datasets:
 
 from google.colab import drive
 
@@ -20,22 +18,37 @@ Install and import the required libraries:
 !pip install pandas numpy seaborn matplotlib scikit-learn librosa kaggle
 
 import os
+
 import pandas as pd
+
 import numpy as np
+
 import seaborn as sns
+
 import matplotlib.pyplot as plt
+
 import sklearn
+
 import librosa
+
 import librosa.display
+
 from kaggle.api.kaggle_api_extended import KaggleApi
+
 Set up Kaggle API credentials:
+
 os.environ["KAGGLE_USERNAME"] = "b20cs048"
+
 os.environ["KAGGLE_KEY"] = "24a550be5e552e966e4d4b6a2a6bfa51"
  
 Download the dataset using Kaggle API:
+
 api = KaggleApi()
+
 api.authenticate()
+
 dataset_name = "andradaolteanu/gtzan-dataset-music-genre-classification"
+
 api.dataset_download_files(dataset_name, path="/content/data", unzip=True)
  
 Then done the code for all the tasks that has to be done for the project i.e. Music Genre Classification
