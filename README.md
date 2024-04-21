@@ -11,28 +11,18 @@ Open Google Colab and create a new notebook. <br/>
 Mount Google Drive to access files and datasets: <br/>
    from google.colab import drive <br/>
    drive.mount('/content/drive') <br/>
+Install and import the required libraries: <br/>
+!pip install pandas numpy seaborn matplotlib scikit-learn librosa kaggle <br/>
 
-Install and import the required libraries:
-
-!pip install pandas numpy seaborn matplotlib scikit-learn librosa kaggle
-
-import os
-
-import pandas as pd
-
-import numpy as np
-
-import seaborn as sns
-
-import matplotlib.pyplot as plt
-
-import sklearn
-
-import librosa
-
-import librosa.display
-
-from kaggle.api.kaggle_api_extended import KaggleApi
+import os <br/>
+import pandas as pd <br/>
+import numpy as np <br/>
+import seaborn as sns <br/>
+import matplotlib.pyplot as plt <br/>
+import sklearn <br/>
+import librosa <br/>
+import librosa.display <br/>
+from kaggle.api.kaggle_api_extended import KaggleApi <br/>
 
 Set up Kaggle API credentials:
 
