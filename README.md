@@ -9,8 +9,8 @@ Google Colab Setup
 
 Open Google Colab and create a new notebook. <br/>
 Mount Google Drive to access files and datasets: <br/>
-   from google.colab import drive
-   drive.mount('/content/drive')
+   from google.colab import drive <br/>
+   drive.mount('/content/drive') <br/>
 
 Install and import the required libraries:
 
